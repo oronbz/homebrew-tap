@@ -1,6 +1,6 @@
 cask "cousebar" do
-  version "1.0.0"
-  sha256 "cfe0caef4e963f349a4ebc7a7ac2b49b79081fefd6c6cb766c59082921eaa065"
+  version "1.1.0"
+  sha256 "59ecbd210052de8c49ef00ba3ff43d8ee6be3f3eda9a6c41390457f4f60177e8"
 
   url "https://github.com/oronbz/CouseBar/releases/download/v#{version}/CouseBar.zip"
   name "CouseBar"
