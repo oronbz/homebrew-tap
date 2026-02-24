@@ -1,6 +1,6 @@
 cask "cousebara" do
-  version "1.1.0"
-  sha256 "59ecbd210052de8c49ef00ba3ff43d8ee6be3f3eda9a6c41390457f4f60177e8"
+  version "1.2.0"
+  sha256 "65a3197aca2e08668cfb41db3b569374d8405f71077ee0217f1556c066e08e02"
 
   url "https://github.com/oronbz/Cousebara/releases/download/v#{version}/Cousebara.zip"
   name "Cousebara"
