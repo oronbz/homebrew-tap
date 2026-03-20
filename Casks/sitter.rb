@@ -1,6 +1,6 @@
 cask "sitter" do
   version "1.0.0"
-  sha256 "PLACEHOLDER"
+  sha256 "cb38f40e74719067f26c65d6015232356b63710aa82084fec04e534b73796df4"
 
   url "https://github.com/oronbz/Sitter/releases/download/v#{version}/Sitter.zip"
   name "Sitter"
