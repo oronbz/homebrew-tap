@@ -7,7 +7,7 @@ cask "sitter" do
   desc "Menu bar app for alternating between sitting and standing at a standing desk"
   homepage "https://github.com/oronbz/Sitter"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Sitter.app"
 
