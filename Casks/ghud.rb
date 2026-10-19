@@ -6,19 +6,19 @@ cask "ghud" do
     end
   end
 
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
-    sha256 "0b99027654698f5801aace5e641a7b78fe46bd71067061ebdc24b9d629830f3e"
+    sha256 "5a228d40aa2dafce789d0074f9f74202a59933344aeb798897f8cbc67538129f"
     url "https://github.com/oronbz/ghud/releases/download/v#{version}/ghud_#{version}_darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "358a988ca0d53bb19387d1f3d5f235277457c4cda84c18c3d4a2292754a5f114"
+      sha256 "a22ee24f8eb1b650bea0fe5b940ff4565ae962388e547f3c27a145d68873107e"
       url "https://github.com/oronbz/ghud/releases/download/v#{version}/ghud_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2715f6a757e595ed5fb84433c7a3a3f0c56a0ac9b459c76d3fe28e5f516151df"
+      sha256 "0943e9fabd30aea944d62e8299aab9c12c8cd16c7ab7b13648b0561ead1d75d1"
       url "https://github.com/oronbz/ghud/releases/download/v#{version}/ghud_#{version}_linux_amd64.tar.gz"
     end
   end
