@@ -5,11 +5,11 @@
 class Ghud < Formula
   desc "A god's-eye HUD for your day, in the terminal"
   homepage "https://github.com/oronbz/ghud"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
-    url "https://github.com/oronbz/ghud/releases/download/v0.1.0/ghud_0.1.0_darwin_all.tar.gz"
-    sha256 "1bc7d2ddf1c76dc2c35535c3a7f46a37f78afc082de9e71ce1d90e5eb5c08f1e"
+    url "https://github.com/oronbz/ghud/releases/download/v0.1.1/ghud_0.1.1_darwin_all.tar.gz"
+    sha256 "40448f833ce553aaad460076ec9f64465914574492aec23b730b7404d8e965b7"
 
     define_method(:install) do
       bin.install "ghud"
@@ -19,16 +19,16 @@ class Ghud < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/oronbz/ghud/releases/download/v0.1.0/ghud_0.1.0_linux_amd64.tar.gz"
-      sha256 "60ffd22cdb416233ae801178c9a046ca8c0819b9b8db6ed17db7a40fcf04621a"
+      url "https://github.com/oronbz/ghud/releases/download/v0.1.1/ghud_0.1.1_linux_amd64.tar.gz"
+      sha256 "e210689e85b38f3a8fce814b9e710ef265cab41133f67e186f895217eb336705"
       define_method(:install) do
         bin.install "ghud"
         bin.install "ghud-weather"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/oronbz/ghud/releases/download/v0.1.0/ghud_0.1.0_linux_arm64.tar.gz"
-      sha256 "68ea2f905b2d296d292d75d0d86823a8d20177a6c690a7f20859625444a2d256"
+      url "https://github.com/oronbz/ghud/releases/download/v0.1.1/ghud_0.1.1_linux_arm64.tar.gz"
+      sha256 "1099147f2af1df38f5c85e24f49e72cbdbd3ad77005870c6d02b2c060fce424b"
       define_method(:install) do
         bin.install "ghud"
         bin.install "ghud-weather"
