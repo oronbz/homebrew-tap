@@ -24,7 +24,7 @@ cask "visor" do
   end
 
   name "visor"
-  desc "A god's-eye HUD for your day, in the terminal"
+  desc "A heads-up display for your terminal"
   homepage "https://github.com/oronbz/visor"
 
   livecheck do
