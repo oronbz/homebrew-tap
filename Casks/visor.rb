@@ -6,19 +6,19 @@ cask "visor" do
     end
   end
 
-  version "0.9.1"
+  version "0.10.0"
 
   on_macos do
-    sha256 "8ce9492677fb20419d837b56fc6b29bce7c3731e127403c1c9c1cdd61dbffed1"
+    sha256 "96172b71154743e3dd6c077bbaf3f99c29f90a870ee773a8127e663029315255"
     url "https://github.com/oronbz/visor/releases/download/v#{version}/visor_#{version}_darwin_all.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "004b1c6636fcca3f13763158e85537830a6ccfca55ae0bd7d7cda86623c30598"
+      sha256 "b17d9df2a2691fb3799d29d8bf76ab61e056e4ac4daa25d71673da00b8f0e290"
       url "https://github.com/oronbz/visor/releases/download/v#{version}/visor_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "04ba5596298e8a6b3a47f7a83937173c93f096e6336cd8f713cf386988229a44"
+      sha256 "97b08a9a770de8fbd252253b3bb9afb0009425480bddf575a3ed309724251d91"
       url "https://github.com/oronbz/visor/releases/download/v#{version}/visor_#{version}_linux_amd64.tar.gz"
     end
   end
