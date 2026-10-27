@@ -1,6 +1,6 @@
 cask "shepherd" do
-  version "0.1.4"
-  sha256 "32a856f0be8b6586b7eeee9dc80da12a06d3598f04a06df1f6618a903adc1e5c"
+  version "0.1.5"
+  sha256 "0614d89ca1c061c809148f96ebaa03343c31bb5293053ca08a09f1b668ba1261"
 
   url "https://github.com/oronbz/shepherd/releases/download/v#{version}/Shepherd.zip"
   name "Shepherd"
