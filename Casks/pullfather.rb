@@ -1,6 +1,6 @@
 cask "pullfather" do
-  version "0.12.1"
-  sha256 "bebd911aa9f49d374af7b6851606391639c438ab979ad50cd40e1eb6eb48e9eb"
+  version "0.12.2"
+  sha256 "ea89fe7d5a50ae818802388f821cd173b5a76727f77d41132e7028e0f4271f09"
 
   url "https://github.com/oronbz/pullfather/releases/download/v#{version}/Pullfather.zip"
   name "The Pullfather"
